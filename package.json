@@ -1,0 +1,19 @@
+{
+  "name": "lebacon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "baconjs": "^3.0.12",
+    "html-webpack-plugin": "^4.0.4",
+    "preact": "^10.3.4",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --config webpack.client.js --hot --inline --colors --port 8080 --open"
+  }
+}
